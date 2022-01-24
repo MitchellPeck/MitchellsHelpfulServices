@@ -4731,12 +4731,12 @@
           "_styles": {},
           "_name": "header18",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the Document</title>\n  </head>\n  <body>\n    [JS_CODE_0]\n  </body>\n</html>",
+          "_customHTML": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the Document</title>\n  </head>\n  <body>\n    \n    function getUrlVars() {\n    var vars = {};\n    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {\n        vars[key] = value;\n    });\n    return vars;\n}\nvar number = getUrlVars()[\"x\"];\nvar mytext = getUrlVars()[\"text\"];\n[JS_CODE_0]\n  </body>\n</html>",
           "_cid": "sVruKqTgPk",
           "_anchor": "header18-1m",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n      const size = \"size\";\n      alert(\"size\");\n      // s\n      const color = urlParams.get('color')\n      alert(color);\n      // black      \n      const newUser = urlParams.get('newuser')\n      alert(newUser);\n      // empty string\n    </script>"
+            "<script>\n      const size = \"size\";\n      alert('x');\n      // s\n      const color = urlParams.get('text')\n      alert(color);\n      // black      \n      const newUser = urlParams.get('newuser')\n      alert(newUser);\n      // empty string\n    </script>"
           ],
           "_protectedParams": [],
           "_global": false,
