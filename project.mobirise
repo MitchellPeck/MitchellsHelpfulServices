@@ -4728,31 +4728,15 @@
         },
         {
           "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = \"color\")": {
-              "& when not (@gradientBg)": {
-                "background-color": "@bg-value"
-              },
-              "& when (@gradientBg)": {
-                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
-              }
-            }
-          },
+          "_styles": {},
           "_name": "header18",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ff9966\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"135\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                  <script>\n                    function get(){\n                    // (A) GET THE PARAMETERS\n                    var params = new URLSearchParams(window.location.search),\n                    first = params.get(\"first\"),\n                    second = JSON.parse(params.get(\"second\"));\n\n                    // (B) IT WORKS!\n                    console.log(first); // Foo Bar\n                    console.log(second); // [\"Hello\", \"World\"]\n                    }\n                    </script>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"book.html\" data-app-placeholder=\"Type Text\">Book Another</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title of the Document</title>\n  </head>\n  <body>\n    [JS_CODE_0]\n  </body>\n</html>",
           "_cid": "sVruKqTgPk",
           "_anchor": "header18-1m",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n                    function get(){\n                    // (A) GET THE PARAMETERS\n                    var params = new URLSearchParams(window.location.search),\n                    first = params.get(\"first\"),\n                    second = JSON.parse(params.get(\"second\"));\n\n                    // (B) IT WORKS!\n                    console.log(first); // Foo Bar\n                    console.log(second); // [\"Hello\", \"World\"]\n                    }\n                    </script>"
+            "<script>\n      const urlParams = new URLSearchParams(\"https://mitchellpeck.github.io/MitchellsHelpfulServices/confirmed.html?product=troussers&color=black&newuser&size=s\");\n      const size = urlParams.get('size');\n      alert(size);\n      // s\n      const color = urlParams.get('color')\n      alert(color);\n      // black      \n      const newUser = urlParams.get('newuser')\n      alert(newUser);\n      // empty string\n    </script>"
           ],
           "_protectedParams": [],
           "_global": false,
