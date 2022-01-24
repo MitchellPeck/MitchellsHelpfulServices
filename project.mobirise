@@ -4736,7 +4736,7 @@
           "_anchor": "header18-1m",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n      const urlParams = new URLSearchParams(\"https://mitchellpeck.github.io/MitchellsHelpfulServices/confirmed.html?product=troussers&color=black&newuser&size=s\");\n      const size = urlParams.get('size');\n      alert(size);\n      // s\n      const color = urlParams.get('color')\n      alert(color);\n      // black      \n      const newUser = urlParams.get('newuser')\n      alert(newUser);\n      // empty string\n    </script>"
+            "<script>\n      const size = \"size\";\n      alert(\"size\");\n      // s\n      const color = urlParams.get('color')\n      alert(color);\n      // black      \n      const newUser = urlParams.get('newuser')\n      alert(newUser);\n      // empty string\n    </script>"
           ],
           "_protectedParams": [],
           "_global": false,
