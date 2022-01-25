@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MitchellsHelpfulServices",
-    "currentPage": "outdoors_mow.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -40,8 +40,8 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "favicon": false,
-    "mbrsiteDomain": "r1mzlijeup",
+    "favicon": "@PROJECT_PATH@/assets/images/webp.net-resizeimage-3.png",
+    "mbrsiteDomain": "t38ve3eadt",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
