@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MitchellsHelpfulServices",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -51,9 +51,11 @@
     "gdpr": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "uniqCompNum": 113,
+    "uniqCompNum": 110,
     "versionPublish": "5.5.8",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
