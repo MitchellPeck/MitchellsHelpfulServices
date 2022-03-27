@@ -51,7 +51,7 @@
     "gdpr": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "uniqCompNum": 128,
+    "uniqCompNum": 123,
     "versionPublish": "5.5.8",
     "screenshot": "screenshot.png",
     "publishType": "local",
@@ -671,32 +671,6 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {}
-        }
-      ]
-    },
-    "portal.html": {
-      "settings": {
-        "title": "Portal",
-        "order": 1,
-        "footer_custom": "",
-        "header_custom": ""
-      },
-      "components": [
-        {
-          "alias": "witsec-code-editor/components",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "witsec-html-block",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<iframe src=\"https://my.agiled.app\" height=\"800\"></iframe>\r\n\r\n",
-          "_cid": "t1j7oVkngQ",
-          "_anchor": "witsec-html-block-3h",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
