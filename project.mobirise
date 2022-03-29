@@ -41,7 +41,7 @@
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/square.png",
-    "mbrsiteDomain": "bt8s3tep5d",
+    "mbrsiteDomain": "y4danfz6lp",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
@@ -62,7 +62,7 @@
         "title": "Home | Mitchell's Helpful Services",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>",
         "html_before": ""
       },
       "components": [
@@ -634,7 +634,7 @@
       "settings": {
         "title": "Schedule A Service | Mitchell's Helpful Services",
         "order": 3,
-        "footer_custom": "",
+        "footer_custom": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>",
         "header_custom": ""
       },
       "components": [
