@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mitchell's Helpful Services",
-    "currentPage": "index.html",
+    "currentPage": "schedule.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -62,8 +62,8 @@
         "title": "Home | Mitchell's Helpful Services",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>",
-        "html_before": ""
+        "footer_custom": "",
+        "html_before": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>"
       },
       "components": [
         {
@@ -634,8 +634,9 @@
       "settings": {
         "title": "Schedule A Service | Mitchell's Helpful Services",
         "order": 3,
-        "footer_custom": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>",
-        "header_custom": ""
+        "footer_custom": "",
+        "header_custom": "",
+        "html_before": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>"
       },
       "components": [
         {
