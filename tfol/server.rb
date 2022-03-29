@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'stripe'
 # This is your test secret API key.
-Stripe.api_key = 'sk_test_51KLZl2DdlVkXMSTRBVUeLH2h94hckvd7IIKIIxaODIEyxZAK9FzZlFlDKjaNpHzf37lDCumfiJyzEFkOOuGE18Tt00F6GPUgUr'
+Stripe.api_key = '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'
 
 set :static, true
 set :port, 4242
