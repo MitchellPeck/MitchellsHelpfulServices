@@ -1,7 +1,7 @@
 #Protect single file
-<Files WTI.png>
+<Files /WTI.png>
 AuthName "Dialog prompt"
 AuthType Basic
-AuthUserFile /.htpasswd
+AuthUserFile /pPro/.htpasswd
 Require valid-user
 </Files>
