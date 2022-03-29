@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Mitchell's Helpful Services",
-    "currentPage": "schedule.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -53,7 +53,9 @@
     "witsec-white-label": true,
     "uniqCompNum": 138,
     "versionPublish": "5.5.8",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -63,7 +65,7 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>"
+        "html_before": ""
       },
       "components": [
         {
@@ -636,7 +638,7 @@
         "order": 3,
         "footer_custom": "",
         "header_custom": "",
-        "html_before": "<script src='//fw-cdn.com/1525179/2458579.js' chat='true'></script>"
+        "html_before": ""
       },
       "components": [
         {
