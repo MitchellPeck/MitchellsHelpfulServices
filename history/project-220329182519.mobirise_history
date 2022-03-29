@@ -53,7 +53,9 @@
     "witsec-white-label": true,
     "uniqCompNum": 138,
     "versionPublish": "5.5.8",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -1058,7 +1060,7 @@
           "_styles": {},
           "_name": "witsec-html-block",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<iframe src=\"https://koalendar.com/u/mhsec?embed=true\" width=\"100%\" height=\"800px\" frameborder=\"0\"></iframe>",
+          "_customHTML": "<iframe src=\"https://koalendar.com/u/mhsec?embed=true\" width=\"100%\" height=\"1250px\" frameborder=\"0\"></iframe>",
           "_cid": "t1u2v5CbS7",
           "_anchor": "witsec-html-block-3s",
           "_PHPplaceholders": [],
